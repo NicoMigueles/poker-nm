@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Player</title>
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <div class="name_box">
+        <input placeholder="Ingrese Nombre" type="text" id="nombre">
+        <input id="btn_save_name" type="button" value="Elegir">
+    </div>
+    <div class="button_box">
+      <input id="irse" type="button" value="Irse">
+    </div>
+
+    
+    <div class="cartas_box">
+      <div id="carta1"></div>
+      <div id="carta2"></div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="src/client.js"></script>
+  </body>
+</html>

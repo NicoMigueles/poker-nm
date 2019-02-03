@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mesa</title>
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <div class="button_box">
+      <input id="rep" type="button"  value="REPARTIR">
+      <input id="mostrar" type="button" value="MOSTRAR">
+    </div>
+
+    <div id="player1" class="player"></div>
+    <div id="player2" class="player"></div>
+    <div id="player3" class="player"></div>
+    <div id="player4" class="player"></div>
+
+    <div class="cartas_box">
+      <div id="carta1"></div>
+      <div id="carta2"></div>
+      <div id="carta3"></div>
+      <div id="carta4"></div>
+      <div id="carta5"></div>
+  </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="src/mesa.js"></script>
+  </body>
+</html>
